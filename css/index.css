@@ -134,3 +134,35 @@ button:hover{
 .artist img{
     width:100%;
 }
+/* RESPONSIVE DESIGN 500PX */
+
+@media only screen and (max-width: 500px) {
+   
+  .title-container div {	
+        width:100%;
+  }  
+  
+  html{
+    font-size:50%;
+  }
+  
+  .artists-container{
+        flex-direction:column;
+        flex-wrap:wrap; 
+      justify-content:center;
+      align-iterms:center;
+        width:100%;
+    
+        
+  }     
+    
+    .artist{
+        width:80%;
+      margin-left:10%;
+/*       margin-right:10%; */
+  }
+    .artist img{
+    width:80%;
+    height:80%;
+}
+}
